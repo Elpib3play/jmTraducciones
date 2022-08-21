@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="shortcut icon" href="../img/shortcuts.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body class="grid">
+    <header class="header">
+        <img class="img" src="../img/jm.png" alt="logo">
+        <h1 class="title">Jennifer Morel Traductora de Ingles </h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="./acercaDe.html">ACERCA DE</a></li>
+            <li><a href="./servicioDeTraduccion.html">SERVICIO DE TRADUCCIÓN</a></li>
+            <li><a href="./clasesDeIngles.html">CLASES DE INGLES</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <div id="formulario">
+        <h2 class="textoDos">Completa el formulario de contacto</h2>
+        <form class="form">
+            <fieldset class="fieldset">
+                <label for="nombre">Nombre:</label><br>
+                <input id="nombre" type="text" placeholder="Ingresá tu nombre"><br>
+                <label for="apellido">Apellido:</label><br>
+                <input id="apellido" type="text" placeholder="Ingresá tu apellido"><br>
+                <label for="tel">Teléfono:</label><br>
+                <input id="tel" type="tel" placeholder="Ingresá tu teléfono"><br>
+                <label for="comentario">Tenés algún comentario?</label><br>
+                <textarea id="comentario" placeholder="Dejá tu comentario"></textarea><br>
+                <label for="tyc">Acepta los terminos y condiciones</label>
+                <input type="checkbox"><br/>
+                <label for="suscripcion">Suscribite</label>
+                <input type="checkbox"><br/>
+                <label for="opciones">Deseas recibir notificaciones?</label><br>
+                <input name="opciones" type="radio">
+                <span>Si</span><br/>
+                <input name="opciones" type="radio">
+                <span>No</span><br/>
+                <input type="submit" value="Aceptar">
+                <input type="reset" value="cancelar">
+            </fieldset>    
+        </form>
+    </div>
+    <section class="seccion">
+        <div class="cotiza"><a href="https://api.whatsapp.com/send?phone=54911&text=Hola,%20vi%20un%20anuncio%20en%20Facebook%20y%20quisiera%20conocer%20m%C3%A1s%20sobre%20tus%20productos">Cotiza Aquí</a></div>
+    </section>
+    <footer>Todos los derechos Reservados</footer>
+</body>
+</html>
