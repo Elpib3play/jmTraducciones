@@ -42,7 +42,7 @@ header{
 nav{
     display: none;
     grid-area: nav;
-    border: 1px solid black;
+    border: 1px solid black;  
 }
 nav ul li a:hover{
     color: rgb(103, 247, 239);
@@ -90,6 +90,7 @@ div a{
 }
 .cotiza:hover{
     background-color: chartreuse;
+    transition: all 1s ease-in-out;
 }
 footer{
     grid-area: footer;
